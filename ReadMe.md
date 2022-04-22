@@ -14,6 +14,9 @@ Advantages are, for instance, to
 * use components that you do not have physically available,
 * ...
 
+The view the circuits open the *.circ files in logisim.
+You can use the provided logisim jar or the logisim package from your distribution.
+
 ## Restrictions
 
 Logisim operates on a higher level than one would in hardware.
@@ -41,7 +44,7 @@ DIP layouts of 74xx integrated circuits like you would use physically.
 ### LCD
 
 A display for numbers that also supports negative values.
-The conversion (BCD) from binary to 7-segment is performed using an EEPROM instead of combinatory logic.
+The conversion (BCD) from binary to 7-segment is performed using an (EEP)ROM instead of combinatory logic.
 
 File: [lcd2.circ](lcd2.circ)
 ![LCD.png](LCD.png)
